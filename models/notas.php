@@ -15,3 +15,4 @@ class Notas extends BaseDeDatos {
         return $this->executeInsert("insert into alumnos_MariaJose set nombre='{$data["na1"]}',
         Laboratorio1='{$data["n1"]}', Laboratorio2='{$data["n2"]}', Parcial='{$data["n3"]}'");
     }
+}

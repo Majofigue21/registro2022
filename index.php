@@ -10,6 +10,10 @@
     <h1>Calculo de notas</h1>
     <form action="index.php" method="POST">
     <table border="1">
+         <tr>
+            <th>Nombre:</th>
+            <td><input type="text" name="na1" id="na1"></td>
+        </tr>
         <tr>
             <th>Laboratorio 1:</th>
             <td><input type="number" name="n1" id="n1"></td>
